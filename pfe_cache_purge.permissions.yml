@@ -1,0 +1,4 @@
+administer cache purge:
+  title: 'Administer Cache Purge settings'
+  description: 'Access to purge cache'
+  restrict access: TRUE

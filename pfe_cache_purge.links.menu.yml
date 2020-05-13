@@ -1,0 +1,5 @@
+pfe_cache_purge.settings:
+  title: Cache Purge
+  description: 'Clear the Cloudflare Cache.'
+  route_name: pfe_cache_purge.settings
+  parent: system.admin_config_ui

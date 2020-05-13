@@ -1,0 +1,8 @@
+name: Cache Purge
+type: module
+description: 'Call to dashboard for cache purging'
+version: '8.x-1.0'
+core: 8.x
+dependencies:
+  - drupal:smartsite_client
+configure: pfe_cache_purge.settings

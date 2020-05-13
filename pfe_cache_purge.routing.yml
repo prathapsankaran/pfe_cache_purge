@@ -1,0 +1,7 @@
+pfe_cache_purge.settings:
+  path: '/admin/config/user-interface/cache-purge'
+  defaults:
+    _form: '\Drupal\pfe_cache_purge\Form\CachePurgeAdminSettingsForm'
+    _title: 'Cache Purge'
+  requirements:
+    _permission: 'administer cache purge'
